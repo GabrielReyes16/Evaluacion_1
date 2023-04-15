@@ -1,0 +1,41 @@
+/*Ejercicio 1*/
+#card_header_ej1{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+#card_body_ej1{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.titulo_ej1{
+    font-size: 30px;
+}
+.subtitulo_ej1{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: blue;
+}
+/*Pregunta 2*/
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera{
+    text-align: center;
+}
+.botonera{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+#clear{
+    margin-left: 5px;
+}
+.titulo2{
+    text-align: center;
+}
